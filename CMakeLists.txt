@@ -10,6 +10,12 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-exceptions -fno-rtti -Werror -Wall 
 
 include_directories(src/)
 
+# RapidJson
+include_directories(lib/rapidjson/include/)
+
+# Date
+include_directories(lib/date/include/)
+
 # libcurl
 message(STATUS ${CMAKE_PREFIX_PATH})
 
